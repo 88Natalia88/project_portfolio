@@ -19,7 +19,7 @@ A multi-page website is a project to create your brand from scratch and promote 
 ![Image alt](https://github.com/88Natalia88/project_portfolio/blob/main/your%20brand%203.png)
 ![Image alt](https://github.com/88Natalia88/project_portfolio/blob/main/your%20brand%204.png)
 ![Image alt](https://github.com/88Natalia88/project_portfolio/blob/main/your%20brand%205.png)
-[Сlick me](88natalia88.github.io/project_portfolio/)
+
 
 ## Authors
 ​
