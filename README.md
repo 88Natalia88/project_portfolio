@@ -4,7 +4,7 @@ Website for brand promotion.
 ​
 ## Description
 ​
-This site project for the possibility of promoting your brand
+This site is a project to create your brand from scratch and promote it
 ​
 ​
 ## Technology stack
