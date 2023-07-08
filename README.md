@@ -4,7 +4,7 @@ Website for brand promotion.
 ​
 ## Description
 ​
-This site is a project to create your brand from scratch and promote it
+A multi-page website is a project to create your brand from scratch and promote it. The site consists of a main page, a blog, a portfolio page and a feedback page.
 ​
 ​
 ## Technology stack
