@@ -24,5 +24,5 @@ This site project for the possibility of promoting your brand
 ## Authors
 ​
 Name<br>
-[@88Natalia88](https://github.com/88Natalia88)
+[@88Natalia88](https://github.com/88Natalia88)<br>
 [@AiLince](https://github.com/AiLince)
