@@ -12,58 +12,72 @@
 </head>
 <body>
 	<header class="header">
-        <div class="header-links">
-            <div class="logo">
-				<a href="index.html"><img src="assets/images/brand.png"></a>
-				</div>
-            <div class="navigation">
-                <a class="navigation__work-together" href="index3.html">Work together</a>
-                <a class="navigation__portfolio" href="index2.html">Portfolio</a>
-                <a class="navigation__blog" href="blog.html">Blog</a>
+        <div class="header__wrap">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link"><img src="assets/images/brand.png" alt="logo" class="header__logo-img"></a>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="index3.html" class="header__menu-link">Work together</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="index2.html" class="header__menu-link">Portfolio</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="blog.html" class="header__menu-link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__burger-icon">    
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </header>
-    <form>
-        <h2 class="form-title">Work together</h2>
-        <div class="form-item">
-        <p class="form-item__title">Name</p>
-        <input type="name">
-        </div>
-        <div class="form-item">
-        <p class="form-item__title">Your buisness e-mail</p>
-        <input type="email">
-    </div>
-    <div class="form-item">
-        <p class="form-item__title">Your website or social media link</p>
-        <input type="url">
-    </div>
-    <div class="form-item">
-        <p class="form-item__title">Share a few sentences about yourself and your buisness</p>
-        <input type="text">
-    </div>
-    <div class="form-item">
-        <p class="form-item__title">What current challenges do you want to solve through us working together</p>
-        <input type="text">
-        </div>
-        <div class="form-item">
-        <p class="form-item__title">What is your vision of your brand in the future</p>
-        <input type="text">
-        </div>
-        <div class="form-item">
-        <p class="form-item__title">Additional information</p>
-        <textarea></textarea>
-    </div>
-    <div class="agreement">
-    <input type="checkbox" class="checkbox">I agree to recieve useful tips and promos for my buisness via e-mail
-    </div>
-    <button type="submit" class="submit-btn">Submit</button>
-    </div>
-	<footer>
-        <div class="footer">
-            <img src="assets/images/logo-footer.png">
-        </div>
+    <main class="main">
+        <section class="feedback">
+            <h2 class="feedback__title title">Work together</h2>
+            <form class="feedback__form">
+                <label for="name" class="feedback__form-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." class="feedback__form-input">
+
+                <label for="email" class="feedback__form-label">Your buisness e-mail</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email..." class="feedback__form-input">
+
+
+                <label for="url" class="feedback__form-label">Your website or social media link</label>
+                <input type="text" class="feedback__form-input" name="url" id="url" placeholder="Enter your link...">
+
+
+                <label for="sentences" class="feedback__form-label">Share a few sentences about yourself and your buisness</label>
+                <input type="text" class="feedback__form-input" id="sentences" name="sentences" placeholder="Enter your sentences...">
+
+
+                <label for="work" class="feedback__form-label">What current challenges do you want to solve through us working together?</label>
+                <input type="text" class="feedback__form-input" name="work" id="work" placeholder="Enter your current challenges...">
+
+
+                <label for="vision" class="feedback__form-label">What is your vision of your brand in the future?</label>
+                <input type="text" class="feedback__form-input" name="vision" id="vision" placeholder="Enter your vision...">
+
+
+                <label for="textarea" class="feedback__form-label">Additional information</label>
+                <textarea class="feedback__form-textarea" id="textarea" placeholder="Information..."></textarea>
+
+                <label class="feedback__form-label feedback__form-label_checkbox">
+                    <input type="checkbox" class="feedback__form-checkbox" name="agree">
+                    I agree to recieve useful tips and promos for my buisness via e-mail
+                </label>
+
+                <button type="submit" class="feedback__form-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="index.html" class="footer__link"><img src="assets/images/logo-footer.png" alt="logo" class="footer__logo"></a>
     </footer>
-    
-</form>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>

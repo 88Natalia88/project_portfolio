@@ -12,46 +12,56 @@
 </head>
 <body>
 	<header class="header">
-        <div class="header-links">
-            <div class="logo">
-				<a href="index.html"><img src="assets/images/brand.png"></a>
-				</div>
-            <div class="navigation">
-                <a class="navigation__work-together" href="index3.html">Work together</a>
-                <a class="navigation__portfolio" href="index2.html">Portfolio</a>
-                <a class="navigation__blog" href="blog.html">Blog</a>
+        <div class="header__wrap">
+            <div class="header__logo">
+                <a href="index.html" class="header__logo-link"><img src="assets/images/brand.png" alt="logo" class="header__logo-img"></a>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="index3.html" class="header__menu-link">Work together</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="index2.html" class="header__menu-link">Portfolio</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="blog.html" class="header__menu-link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__burger-icon">    
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </header>
-    <main>
-        <div class="maincontainer">
-            <h2 class="headline">My projects</h2>
-            <div class="maincontainer__text">
-                <p>I’ve worked with over 20 brands from Bolt and Vivid Bank to small local businesses in different industries to rebrand, clarify the brand message, push the strategy, connect with the audience through social media channels, find influencers and ambassadors, make offline events, collaborate and co-create.
+    <main class="main">
+        <section class="projects">
+            <h2 class="projects__title title">My projects</h2>
+            <div class="projects__text">
+                I’ve worked with over 20 brands from Bolt and Vivid Bank to small local businesses in different industries to rebrand, clarify the brand message, push the strategy, connect with the audience through social media channels, find influencers and ambassadors, make offline events, collaborate and co-create.
                 Collaboration and co-creating have been the recent theme that I keep developing and suggesting for brands. 
-                </p>
-                    </div>
-            <div class="containers">  
-                <div class="container container1">
-                <h3 class="container__title">Thank You Mama</h3>
-                <img src="assets/images/2.png">
             </div>
-            <div class="container container2">
-                <h3 class="container__title">Celebration clothes</h3>
-                <img src="assets/images/5.png">
+            <div class="projects__items">  
+                <div class="projects__item projects__item_1">
+                <h3 class="projects__item-title">Thank You Mama</h3>
+                <img src="assets/images/2.png" alt="img" class="projects__img">
             </div>
-            <div class="container container3">
-                <h2 class="container__title">Locani Jewelry</h2>
-                <img src="assets/images/6-fotor-bg-remover-202305282254.png">
+            <div class="projects__item projects__item_2">
+                <h3 class="projects__item-title">Celebration clothes</h3>
+                <img src="assets/images/5.png" alt="img" class="projects__img">
+            </div>
+            <div class="projects__item projects__item_3">
+                <h2 class="projects__item-title">Locani Jewelry</h2>
+                <img src="assets/images/6-fotor-bg-remover-202305282254.png" alt="img" class="projects__img">
             </div>
         </div>
-        </div>
+        </section>
     </main>
-	<footer>
-        <div class="footer">
-            <img src="assets/images/logo-footer.png">
-        </div>
+	<footer class="footer">
+            <a href="index.html" class="footer__link"><img src="assets/images/logo-footer.png" alt="logo" class="footer__logo"></a>
     </footer>
-    
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
