@@ -311,28 +311,26 @@ marquee{
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		gap: 30px;
+		flex-wrap: wrap;
 	}
 	&__img{
 		width: 100%;
 		max-width: 360px;
-		height: 500px;
 	}
 	
 &__item {
-	font-family: "Montserrat", sans-serif;
 	color: white;
 	padding: 40px;
-	width: 360px;
+	width: 400px;
 	&_1{
 		background: #ecae7d;
 	}
 	&_2{
 		background: #b9c4ca;
-		margin-left: 30px;
 	}
 	&_3{
 		background: #889869;
-		margin-left: 30px;
 	}
 }
 	&__item-title {
@@ -342,19 +340,6 @@ marquee{
 		text-align: center;
 	}
 
-}
-
-@media screen and (max-width: 1440px){
-	.projects{
-		&__item{
-			&_2{
-				margin-left: 15px;
-			}
-			&_3{
-				margin-left: 15px;
-			}
-		}
-	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -373,22 +358,12 @@ marquee{
 		}
 		&__text{
 			font-size: 16px;
-			width: 950px;
 		}
 	}
 }
-@media screen and (max-width: 768px) {
-	.projects{
-		&__text{
-			width: 650px;
-		}
-	}
-}
+
 @media screen and (max-width: 425px) {
 	.projects{
-		&__text{
-			width: 350px;
-		}
 		&__item{
 			padding: 5px;
 		}
